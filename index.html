@@ -14,16 +14,20 @@
 <body>
     <main>
         <div id="principal">
-            <input type="text" name="text" id="itext" placeholder="Cidade">
+            <h1>Previsão do Tempo</h1>
+            <input type="text" name="text" id="itext" placeholder="DIgite a Cidade">
             <button onclick="Verificar()">
                 <span class="material-symbols-outlined">
                     search
                 </span>
             </button>
             <div class="media">
-                <h1 id="res">Tempo em Rio de Janeiro</h1>
+                <h2 id="res">Tempo em Rio de Janeiro</h2>
                 <p class="temp">28° C</p>
-                <p class="descricao">Nuvens Dispersas</p>
+                <div class="caixa-menor">
+                    <img class="icone" src="https://openweathermap.org/img/wn/04n.png"  alt="imagem" >
+                    <p class="descricao">Nuvens Dispersas</p>
+                </div>
                 <p class="umidade">Umidade: 70%</p>
             </div>
         </div>
