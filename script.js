@@ -1,7 +1,7 @@
 let chave = "cebcd482eda57fa9a6714c1c2ba91885"
 
 function colocarnatela(dados){
-    var ress = document.querySelector(`h1#res`)
+    var ress = document.querySelector(`h2#res`)
     var temp = document.querySelector(`p.temp`)
     var descricao = document.querySelector(`p.descricao`)
     var icon = document.querySelector(`img.icone`)
